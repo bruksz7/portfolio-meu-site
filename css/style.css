@@ -73,5 +73,13 @@ img.foto {
   transform: scale(1.08);
 }
 
+.bio {
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 25px;
+  line-height: 1.4;
+}
+
+
 
 
