@@ -65,4 +65,13 @@ img.foto {
   border: 4px solid #6cc1ff;
 }
 
+.foto {
+  transition: transform 0.3s ease;
+}
+
+.foto:hover {
+  transform: scale(1.08);
+}
+
+
 
