@@ -58,6 +58,7 @@ h1 {
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
+  display: block;
   margin-bottom: 20px;
   border: 4px solid #6cc1ff;
 }
