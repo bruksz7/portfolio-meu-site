@@ -71,13 +71,14 @@ body {
   font-weight: bold;
   background: linear-gradient(45deg, #6cc1ff, #ffb6c1, #ffdd6c, #6cffb6);
   background-size: 400% 400%;
-  transition: transform 0.3s, box-shadow 0.3s, background-position 0.3s;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: transform 0.3s, box-shadow 0.3s, background-position 0.5s;
+  animation: gradientCard 10s ease infinite;
 }
 
 .card:hover {
   transform: scale(1.05);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.45);
   background-position: 100% 50%;
 }
 
@@ -85,10 +86,6 @@ body {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
-}
-
-.card {
-  animation: gradientCard 10s ease infinite;
 }
 
 .descricao-card {
