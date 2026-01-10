@@ -80,6 +80,26 @@ img.foto {
   line-height: 1.4;
 }
 
+@media (max-width: 480px) {
+  .container {
+    padding: 25px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .bio {
+    font-size: 14px;
+  }
+
+  .card {
+    font-size: 16px;
+    padding: 14px;
+  }
+}
+
+
 
 
 
