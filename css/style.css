@@ -132,3 +132,36 @@ body {
   }
 }
 
+/* SKILLS E PROJETOS FUTUROS */
+.skills, .projetos-futuros {
+  background-color: #ffffffaa;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 700px;
+  color: #333;
+}
+
+.skills h2, .projetos-futuros h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #6cc1ff;
+}
+
+.skills p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.projetos-futuros ul {
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.projetos-futuros li {
+  margin-bottom: 5px;
+}
+
+
