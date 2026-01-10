@@ -124,3 +124,36 @@ h1 {
     padding: 14px;
   }
 }
+
+/* Animação da foto */
+.foto {
+  transition: transform 0.3s ease;
+}
+
+.foto:hover {
+  transform: scale(1.1);
+}
+
+/* Animação dos cards */
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* Fundo com leve movimento */
+body {
+  background: linear-gradient(135deg, #6cc1ff, #ffb6c1);
+  background-size: 400% 400%;
+  animation: gradientMove 15s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
