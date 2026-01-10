@@ -1,0 +1,6 @@
+body {
+  background: linear-gradient(135deg, #6CC1FF, #FFB6C1);
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
