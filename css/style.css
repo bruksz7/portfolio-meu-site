@@ -126,7 +126,7 @@ body {
   margin-bottom: 5px;
 }
 
-/* CONTATO */
+/* CONTATO COM ÍCONES */
 .contato {
   margin-top: 30px;
   font-size: 16px;
@@ -139,7 +139,17 @@ body {
   transition: color 0.3s;
 }
 
+.contato a i {
+  margin-right: 5px;
+  color: #6cc1ff;
+  transition: color 0.3s;
+}
+
 .contato a:hover {
+  color: #ff6c6c;
+}
+
+.contato a:hover i {
   color: #ff6c6c;
 }
 
