@@ -188,3 +188,14 @@ body {
     height: 100px;
   }
 }
+
+/* ANIMAÇÃO NOS ÍCONES DE CONTATO */
+.contato a i {
+  display: inline-block;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.contato a:hover i {
+  transform: translateY(-5px) scale(1.2); /* pula e aumenta levemente */
+}
+
